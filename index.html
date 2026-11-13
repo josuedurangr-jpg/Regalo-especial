@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>Un regalo para ti</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PANTALLA INICIAL -->
+
+    <section id="inicio" class="pantalla inicio">
+
+        <div class="caja" id="caja">
+            <div class="tapa"></div>
+            <div class="cuerpo"></div>
+            <div class="lazo"></div>
+        </div>
+
+        <h1>Un pequeño regalo para ti</h1>
+
+        <p>Hay algo especial esperando dentro...</p>
+
+        <button id="abrir">Abrir regalo</button>
+
+    </section>
+
+
+    <!-- JARDÍN DE FLORES -->
+
+    <section id="jardin" class="pantalla jardin oculto">
+
+        <h1>Un pequeño jardín para ti</h1>
+
+        <p class="subtitulo">
+            Cada flor guarda una canción.
+        </p>
+
+
+        <!-- IMAGEN DE LA FLOR -->
+
+        <div class="flor-contenedor">
+
+            <div id="flor" class="flor">
+
+                <img
+                    id="imagenFlor"
+                    src="imagenes/peonia-rosada.png"
+                    alt="Peonía rosada"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- INFORMACIÓN -->
+
+        <h2 id="nombreFlor">Peonía rosada</h2>
+
+        <p id="cancion">Tus Vueltas - Milo J</p>
+
+        <p id="frase">
+            Hay cosas pequeñas que terminan convirtiéndose en algo extraordinario.
+        </p>
+
+
+        <!-- NAVEGACIÓN -->
+
+        <div class="controles">
+
+            <button id="anterior">❮</button>
+
+            <span id="contador">1 / 3</span>
+
+            <button id="siguiente">❯</button>
+
+        </div>
+
+
+        <!-- REPRODUCTOR -->
+
+        <div id="reproductor"></div>
+
+
+        <p class="mensaje">
+            Hecho especialmente para ti ♡
+        </p>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
